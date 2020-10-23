@@ -24,7 +24,7 @@ Build out the schema for our Fantasy Library database:
 3. The `Sub-Genres` table has a name
 4. The `Authors` table has a name
 5. The `Books` table has a title and year and belong to a series
-6. The `Characters` table has a name, motto, and species and belong to an author
+6. The `Characters` table has a name, motto and species and belongs to an author
 7. The `Books` table has many characters and characters are in many books in a series.
    How do we accomplish this complex association? With a join table between
    Characters and Books. This join table (let's call it character_books) will
@@ -65,5 +65,3 @@ with external data so don't expect it to reflect the data you added above.
 * [Seldom Blog](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/) - [About SQL Joins: The 3 Ring Binder Model](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/)
 * [Coding Horror](http://blog.codinghorror.com/) - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 * [Geeky is Awesome - SQL Joins Tutorial](https://geekyisawesome.blogspot.com/2011/03/sql-joins-tutorial.html)
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/sql-library-lab'>SQL Library Lab</a> on Learn.co and start learning to code for free.</p>
